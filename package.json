@@ -1,18 +1,20 @@
 {
   "name": "pokedex",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A Pokedex application to explore Pokemon details.",
+  "main": "src/index.js",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/index.html",
+    "test": "echo \"No test script defined\" && exit 0"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["pokedex", "pokemon", "parcel", "sass"],
+  "author": "Your Name",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
     "parcel": "^2.12.0"
-  }
+  },
+  "dependencies": {}
 }
